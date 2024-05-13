@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="C:\Users\AgroL\Desktop\Conservation_WIP\CSS\ConservationStyleSheet_WIP.css">
+  <!--"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" -->
+  <script src="C:\Users\AgroL\Desktop\Conservation_WIP\JS\ConservationGoogleapisWIP.js"></script>
+  <!--"https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"-->
+  <script src="C:\Users\AgroL\Desktop\Conservation_WIP\JS\Conservation_maxcdn_WIP.js"></script>
+  <!--"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"-->
+  <link rel="stylesheet" href="http://localhost:8888/myCSS_styleFiles/ConcervationFirePrevention_Scrollspy.css">
+  <!---->
+
+  <style>
+    
+  body {
+    position: relative;
+    background-image: url("C:\Users\AgroL\Desktop\PersonalWeb\CarlSanfilipo.github.io\photos\4July.jpg");
+  }
+  ul.nav-pills {
+    top: 70px;
+    position: fixed;
+  }
+  div.col-sm-9 div {
+    height: 240px;
+    font-size: 20px;
+  }
+  #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #3d581d;}
+  #section3 {color: #fff; background-color: #31eba1;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+      margin-left: 100px;
+    }
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">Portfolio</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a class="btn btn-default" href="http://localhost:8888/Code/485LPersonalWeb.html" role="button">Home</a></li>
+              <!--<li><a class="btn btn-default" href="about.html" role="button">About</a></li>
+              <li><a class="btn btn-default" href="gallery.html" role="button">Gallery</a></li>
+              <li><a class="btn btn-default" href="contact.html" role="button">Contact</a></li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="btn btn-default" href="login.html" role="button"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<div class="container">
+  <div class="row">
+    <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Rocky Mountain Youth Corps</a></li>
+        <li><a href="#section2">Forest Stewards Guild</a></li>
+        <li><a href="#section3">Valle de oro</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Affiliations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#section41">Bosque Del Apache</a></li>
+            <li><a href="#section42">Pueblo of Isleta: Natural Resources Forestry/Fire</a></li>                     
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="col-sm-9">
+      <div id="section1">    
+        <h1>Rocky Mountain Youth Corps</h1>
+        <p>Rocky Mountain Youth Corps is a stepping stone to new opportunities. We inspire young adults to make a positive difference 
+            in themselves and their communities. Through training and service, Corpsmembers discover their potential for healthy, productive lives..</p>
+      </div>
+      <div id="section2"> 
+        <h1>Forest Stewards Guild</h1>
+        <p>All-Hands All-Lands Burn Team (AHAL) is a collaborative effort between The Nature Conservancy of New Mexico, the Rio Grande Water 
+            Fund, the Forest Stewards Guild, and many others to accelerate the return of fire to frequent fire ecosystems in the Water Fund 
+            landscape. The goal of AHAL is to get ahead of prescribed fire backlogs on federal, state, and tribal lands and support private 
+            landowner’s use of prescribed fire.</p>
+      </div>        
+      <div id="section3">         
+        <h1>Valle de oro</h1>
+        <p>Tucked behind the outskirts of Albuquerque’s rapidly industrialized South Valley, our community and partners are working collaboratively 
+            to turn 570 acres of former farmland into our shared vision for the Southwest’s first urban wildlife refuge.  </p>
+      </div>
+      <div id="section41">         
+        <h1>Bosque Del Apache</h1>
+        <p>Bosque del Apache National Wildlife Refuge is located in San Antonio, Socorro County, New Mexico. Situated between the Chupadera Mountains to 
+            the west and the San Pascual Mountains to the east, the 57,331 acre Bosque del Apache was established in 1939 to provide a critical stopover site 
+            for migrating waterfowl. The refuge is well known for the tens of thousands of cranes, geese, and ducks who winter here each year. Over 30,000 acres 
+            of Bosque del Apache are designated wilderness.</p>
+      </div>      
+      <div id="section42">         
+        <h1>Pueblo of Isleta: Natural Resources Forestry/Fire</h1>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
